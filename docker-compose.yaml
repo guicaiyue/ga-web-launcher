@@ -2,7 +2,7 @@ version: '3.8'
 
 services:
   backend:
-    image: docker.io/guicaiyue/ga-web-launcher-backend:latest
+    image: docker.io/xirizhi/ga-web-launcher-backend:latest
     ports:
       - "8760:8000"
     environment:
@@ -10,7 +10,7 @@ services:
     restart: unless-stopped
     
   frontend:
-    image: docker.io/guicaiyue/ga-web-launcher-frontend:latest
+    image: docker.io/xirizhi/ga-web-launcher-frontend:latest
     ports:
       - "8761:80"
     depends_on:
