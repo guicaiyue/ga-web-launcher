@@ -1,0 +1,16 @@
+version: '3.8'
+services:
+  backend:
+    build: ./backend
+    ports:
+      - "8760:8000"
+    volumes:
+      - ./backend:/app
+    environment:
+      - PYTHONUNBUFFERED=1
+  frontend:
+    build: ./frontend
+    ports:
+      - "8761:80"
+    depends_on:
+      - backend
