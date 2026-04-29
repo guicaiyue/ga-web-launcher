@@ -1,0 +1,4 @@
+[submodule "ga_web_launcher/backend/GenericAgent"]
+	path = ga_web_launcher/backend/GenericAgent
+	url = https://github.com/lsdefine/GenericAgent.git
+	branch = main

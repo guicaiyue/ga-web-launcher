@@ -1,0 +1,6 @@
+{
+  "genericagent_root": "",
+  "default_agent_id": "",
+  "auto_backup_before_write": true,
+  "auto_restart_after_update": false
+}
